@@ -36,7 +36,7 @@ yay -S sddm-theme-astronaut
 Edit (using [micro](https://micro-editor.github.io) here) `/etc/sddm.conf`, so that it looks like this:
 
 ```sh
-sudo micro /etc/sddm.conf  # use any text editor with raised privileges
+sudo nano /usr/lib/sddm/sddm.conf.d/default.conf  # use any text editor with raised privileges
 ---
 [Theme]
 Current=astronaut
